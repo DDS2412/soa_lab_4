@@ -1,0 +1,45 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /*
+    session:
+      cookie:
+        http-only: true
+        tracking-modes: cookie
+#  ssl:
+#    key-alias: https_space_marine_base
+#    key-password: 121234
+#    key-store-type: JKS
+#    key-store: classpath:https_space_marine_base.jks
+
+postgresql:
+  host: 127.0.0.1
+  port: 5432
+  database: postgres
+  username: s242193
+  password: RVDgeS3WfRLNdY20
+
+
+
+spring:
+  application:
+    name: space_marine
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+    properties:
+      hibernate:
+        show_sql: false
+        use_sql_comments: false
+        format_sql: true
+        temp:
+          use_jdbc_metadata_defaults: false
+  datasource:
+    url: jdbc:postgresql://pg:5432/studs
+    username: ${postgresql.username}
+    password: ${postgresql.password}
+    driver-class-name: org.postgresql.Driver
+    continue-on-error: true
+    platform: postgres
+    initialization-mode: always

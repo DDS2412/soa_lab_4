@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="space_marine_2:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a1a801b-87d1-4a9d-a9d8-a83485812343" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mhL4FDzYGIe8N2CF2uYsPgxeqS" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/soa" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="soa.exception" />
+      <recent name="soa.services" />
+      <recent name="soa.dto" />
+      <recent name="soa.controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\soa\space_marine_2\src\main\java\soa" />
+      <recent name="C:\Users\User\IdeaProjects\soa\space_marine_2\src\main\resources" />
+      <recent name="C:\Users\User\IdeaProjects\soa\space_marine_2\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JBoss Server.JBoss 21.0.1.Final">
+    <configuration name="JBoss 21.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.1.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk1.8.0_261" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="https://localhost:8443/space_marine_2" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="space_marine_2:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55513" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="space_marine_2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="SoaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="space_marine_2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="soa.SoaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JBoss Server.JBoss 21.0.1.Final" />
+      <item itemvalue="Spring Boot.SoaApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a1a801b-87d1-4a9d-a9d8-a83485812343" name="Default Changelist" comment="" />
+      <created>1609940682922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609940682922</updated>
+      <workItem from="1609940686065" duration="6409000" />
+      <workItem from="1610049482554" duration="10698000" />
+      <workItem from="1610142836802" duration="2544000" />
+      <workItem from="1610145394632" duration="3276000" />
+      <workItem from="1610189369509" duration="10789000" />
+      <workItem from="1610208984139" duration="3666000" />
+      <workItem from="1610269289879" duration="9127000" />
+      <workItem from="1610286529984" duration="6957000" />
+      <workItem from="1610470809116" duration="599000" />
+      <workItem from="1610788443658" duration="12056000" />
+      <workItem from="1610808647210" duration="1475000" />
+      <workItem from="1610960507723" duration="16000" />
+      <workItem from="1610969041160" duration="8083000" />
+      <workItem from="1610990452818" duration="3221000" />
+      <workItem from="1611051974826" duration="1350000" />
+      <workItem from="1611074869834" duration="1689000" />
+      <workItem from="1611119105279" duration="4748000" />
+      <workItem from="1611133538419" duration="537000" />
+      <workItem from="1611385879961" duration="789000" />
+      <workItem from="1611398832274" duration="2380000" />
+      <workItem from="1611906955834" duration="7000" />
+      <workItem from="1612445900965" duration="21000" />
+      <workItem from="1613060099957" duration="2486000" />
+      <workItem from="1613139512258" duration="8303000" />
+      <workItem from="1613226669224" duration="626000" />
+      <workItem from="1614107492162" duration="7000" />
+      <workItem from="1614108769079" duration="19000" />
+      <workItem from="1614108804994" duration="3000" />
+      <workItem from="1615016497286" duration="22000" />
+      <workItem from="1615021547415" duration="3000" />
+      <workItem from="1615024879548" duration="3238000" />
+      <workItem from="1615636761990" duration="37000" />
+      <workItem from="1615645401428" duration="3256000" />
+      <workItem from="1615652504151" duration="119000" />
+      <workItem from="1615652842008" duration="1347000" />
+      <workItem from="1615885003407" duration="2447000" />
+      <workItem from="1616228498174" duration="3516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/soa/controllers/SpaceMarineController.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/soa/services/impl/StarshipServiceImpl.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/soa/controllers/SpaceMarineController.java</url>
+          <line>62</line>
+          <properties class="soa.controllers.SpaceMarineController" method="getSpaceMarineById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
